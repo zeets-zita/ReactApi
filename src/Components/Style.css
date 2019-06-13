@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    font-family: 'Century Gothic';
+    color: aliceblue;
+
+  }
+  .wrapper {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    height: 90vh;
+    background: #fff;
+    box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .title-container {
+    height: 90vh;
+    background: url("Images/road.jpg") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .title-container__title {
+    font-size: 90px;
+    color: #0d0d0e;
+    padding: 87px;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+
+  .form-container {
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    height: 90vh;
+    width: 46%;
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  
+  input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 1px #444141;
+    width: 30%;
+    padding-bottom: 4px;
+    color: #fff !important;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  input[type="text"] { 
+      outline: none;
+  }
+
+  
+  button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #687277;
+    color: #fff;
+    font-weight: 100;
+  }
+  
+  button:active {
+    outline: none;
+  }
+  
+
+  
+ 
+
+  

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form>
+  <input
+    name="city"
+    placeholder="City..."
+    type="text"
+  />
+  <button>
+    Get Weather
+  </button>
+</form>
+`;
