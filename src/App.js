@@ -5,7 +5,7 @@ import Weather from './Components/Weather'
 import './Components/Style.css';
 
 
-const Api_Key = "90d4c62d7dffd40ff16e3368d35777d7";
+const Api_Key = "********************************";
 
   class App extends React.Component {
 
